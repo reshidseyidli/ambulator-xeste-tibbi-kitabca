@@ -7,11 +7,19 @@ public class Main {
         
         Entity entity = new Entity();
 
-        entity.setBTKM("BTKM");
-        entity.setM0374("M0374");
-        entity.setKimden("Ad Soyad Ata adi");
-        entity.setNeUcun("ne ucun mezmunu.....");
-        entity.setMebleg(99.99f);
+        entity.setBvmElilVesieqNo("bvmElilVesieqNo");
+        entity.setQarabagElilVesieqNo("qarabagElilVesieqNo");
+        entity.setBvmIstirakVesiqNo("bvmIstirakVesiqNo");
+        entity.setQarabagIstirakVesiqNo("qarabagIstirakVesiqNo");
+        entity.setTibbiKitabcaNo("tibbiKitabcaNo");
+        entity.setFullName("fullName");
+        entity.setBirthDay("birthDay");
+        entity.setAddress("address");
+        entity.setWorkEducationAddress("workEducationAddress");
+        entity.setPhoneNumber("phoneNumber");
+        entity.setMobileNumber("mobileNumber");
+        entity.setThisLocation("thisLocation");
+        entity.setOtherLocation("otherLocation");
 
         tibbiKitabca.createMexaricPdf(entity);
     }
